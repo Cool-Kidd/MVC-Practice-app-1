@@ -10,6 +10,8 @@ namespace MVC_Application_1.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Password { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime LastLogin { get; set; }
 
     }
